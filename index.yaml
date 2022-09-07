@@ -3,12 +3,22 @@ entries:
   app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-09-02T13:46:39.215451-05:00"
+    created: "2022-09-07T10:24:25.970459-05:00"
     description: A Helm chart for deploying a flask app
     digest: 0a0b1e5c0ace999615be8c0e8eea52a98b7b5ec3cd2ade8f20c95faeff5d8126
     name: app
     type: application
     urls:
-    - https://fostemi.github.io/neon-guts/app-0.0.1.tgz
+    - app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-02T13:46:39.212748-05:00"
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-09-07T10:24:25.971191-05:00"
+    description: A Helm chart for deploying a flask app
+    digest: a6165b24815e26d035581290a1974d720c6cde7fb0ff3f1d91499486d456afe1
+    name: app
+    type: application
+    urls:
+    - .deploy/app-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-09-07T10:24:25.967575-05:00"
