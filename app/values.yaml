@@ -1,6 +1,8 @@
 enabled: true
 local: false
 
+app_name: string
+
 frontend:
   enabled: true
   replicas: 1
@@ -25,6 +27,7 @@ external_secrets:
   enabled: false
 
 google:
+  project: string
   sql:
     enabled: false
     instance: ignite-instance
@@ -58,5 +61,7 @@ firebase:
 sendgrid:
   enabled: false
 
+domain: string
 
+tenant_code: string
 
