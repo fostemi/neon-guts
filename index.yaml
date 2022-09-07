@@ -9,6 +9,6 @@ entries:
     name: app
     type: application
     urls:
-    - https://fostemi.github.io/neon-guts/app-0.0.1.tgz
+    - https://fostemi.github.io/neon-guts/.deploy/app-0.0.1.tgz
     version: 0.0.1
 generated: "2022-09-07T10:58:19.409966-05:00"
